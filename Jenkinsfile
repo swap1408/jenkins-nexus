@@ -40,7 +40,7 @@ pipeline {
                             protocol: 'http',
                             nexusUrl: '52.42.244.5:8081/',
                             groupId: 'pom.com.mycompany.app',
-                            version: 'pom.1.0-SNAPSHOT',
+                            version: 'pom.2.3.2',
                             repository: 'first-repo',
                             credentialsId: 'NEXUS_CRED',
                             artifacts: [
