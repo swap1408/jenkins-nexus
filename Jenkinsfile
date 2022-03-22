@@ -41,7 +41,7 @@ pipeline {
                             nexusUrl: '52.42.244.5:8081/',
                             groupId: 'pom.com.mycompany.app',
                             version: 'pom.2.3.2',
-                            repository: 'first-repo',
+                            repository: 'jenkins',
                             credentialsId: 'NEXUS_CRED',
                             artifacts: [
                                 [artifactId: 'pom.my-app',
