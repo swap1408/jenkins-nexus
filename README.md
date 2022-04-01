@@ -1,1 +1,1 @@
-# sonarsquba
+# sonarqube
