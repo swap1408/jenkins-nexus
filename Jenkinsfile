@@ -6,7 +6,7 @@ pipeline {
     environment {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
-        NEXUS_URL = "52.42.244.5:8081"
+        NEXUS_URL = "13.234.31.97:8081"
         NEXUS_REPOSITORY = "java-app"
         NEXUS_CREDENTIAL_ID = "NEXUS_CRED"
     }
@@ -38,10 +38,10 @@ pipeline {
                         nexusArtifactUploader(
                             nexusVersion: 'nexus3',
                             protocol: 'http',
-                            nexusUrl: '52.42.244.5:8081/',
+                            nexusUrl: '13.234.31.97:8081/',
                             groupId: 'pom.com.mycompany.app',
                             version: 'pom.1.0-SNAPSHOT',
-                            repository: 'jenkins',
+                            repository: 'swapnil',
                             credentialsId: 'NEXUS_CRED',
                             artifacts: [
                                 [artifactId: 'pom.my-app',
